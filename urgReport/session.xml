@@ -1,0 +1,29 @@
+<session version="1.1" release="V-2023.12" timestp="2024-05-01 12:35:41 GMT">
+  <info>
+    <attr name="datetime" value="Wed May  1 15:35:49 2024
+"/>
+    <attr name="command" value="urg -dir simv.vdb"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::alu_monitor::cg_alu_format">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::alu_monitor::cg_alu_result">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
